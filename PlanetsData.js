@@ -1,4 +1,4 @@
-{
+const planetsJsonString = `{
   "mercury": {
     "title": "mercury",
     "description": {
@@ -95,4 +95,11 @@
     "radius": "24,622 km",
     "averageTemp": "-201°c"
   }
-}
+}`;
+
+// აქ ვეუბნებით JS-ს, რომ ზემოთ მოცემული JSON წაიკითხოს და ობიექტად აქციოს
+const planetsData = JSON.parse(planetsJsonString);
+
+// გამოყენების მაგალითი:
+console.log(planetsData.mercury.title); // "mercury"
+console.log(planetsData.earth.description.overview);

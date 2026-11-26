@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Antonio&family=League+Spartan&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
-    <!-- <link rel="stylesheet" href="/radioGroup.css"> -->
+
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h1>the planets</h1>
         <div class="burger">
             <div class="burgerIcon"></div>
-        </div>        
+        </div>
         <nav>
             <a href="#" value="mercury">mercury</a>
             <a href="#" value="venus">venus</a>
@@ -26,7 +28,7 @@
             <a href="#" value="jupiter">jupiter</a>
             <a href="#" value="saturn">saturn</a>
             <a href="#" value="uranus">uranus</a>
-            <a href="#" value="neptune" >neptune</a>
+            <a href="#" value="neptune">neptune</a>
         </nav>
     </header>
 
@@ -41,21 +43,33 @@
         <div class="planetDescription">
             <div>
                 <h1 id="title">neptune</h1>
-                <p id="description" class="longText">Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus.</p>
+                <p id="description" class="longText">Neptune is the eighth and farthest-known Solar planet from the Sun.
+                    In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and
+                    the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus.
+                </p>
                 <div class="source">
-                    <p>Source : 
+                    <p>Source :
                     </p>
                     <a href="https://www.wikipedia.org/" target="_blank">
-                        Wikipedia 
+                        Wikipedia
                     </a>
                     <img src="./assets/linkIcon.png" alt="link icon">
                 </div>
             </div>
             <div>
                 <div class="buttonsContainer">
-                    <button id="overview" class="active"><p class="number">01</p><p>overview</p></button>
-                    <button id="internal"><p class="number">02</p><p>internal structure</p></button>
-                    <button id="surface"><p class="number">03</p><p>surface geology</p></button>
+                    <button id="overview" class="active">
+                        <p class="number">01</p>
+                        <p>overview</p>
+                    </button>
+                    <button id="internal">
+                        <p class="number">02</p>
+                        <p>internal structure</p>
+                    </button>
+                    <button id="surface">
+                        <p class="number">03</p>
+                        <p>surface geology</p>
+                    </button>
                 </div>
             </div>
         </div>
@@ -79,6 +93,9 @@
         </div>
     </footer>
 
+    <script src="./PlanetsData.js"></script>
     <script src="./app.js"></script>
+
 </body>
+
 </html>
